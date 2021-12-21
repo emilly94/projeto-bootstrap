@@ -85,7 +85,12 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-primary">Detalhe produto</a>
+                <a
+                  class="btn btn-primary"
+                  data-bs-toggle="modal"
+                  data-bs-target="#modal-produto"
+                  >Detalhe produto</a
+                >
               </div>
             </div>
           </div>
@@ -122,66 +127,80 @@
         <div class="row">
           <div class="card">
             <div class="card-body">
-            <div class="col-6">
-              <h2>Contato</h2>
-              <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis
-                suscipit error architecto nulla quisquam quod minima repudiandae
-                deleniti fuga voluptatibus.
-              </p>
-            </div>
-            <div class="col-6">
-              <form>
-                <div class="mb-3">
-                  <label for="" class="form-label">Nome</label>
-                  <input type="text" class="form-control">
-                  <label for="exampleInputEmail1" class="form-label"
-                    >Email</label
-                  >
-                  <input
-                    type="email"
-                    class="form-control"
-                  />
-                  <div class="form-text">
-                    digite endereço de e-mail valido.
+              <div class="col-6">
+                <h2>Contato</h2>
+                <p>
+                  Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                  Omnis suscipit error architecto nulla quisquam quod minima
+                  repudiandae deleniti fuga voluptatibus.
+                </p>
+              </div>
+              <div class="col-6">
+                <form>
+                  <div class="mb-3">
+                    <label for="" class="form-label">Nome</label>
+                    <input type="text" class="form-control" />
+                    <label for="exampleInputEmail1" class="form-label"
+                      >Email</label
+                    >
+                    <input type="email" class="form-control" />
+                    <div class="form-text">
+                      digite endereço de e-mail valido.
+                    </div>
                   </div>
-                </div>
-                <div class="mb-3">
-                  <label for="" class="form-label"
-                    >Telefone</label
-                  >
-                  <input
-                    type="text"
-                    class="form-control"
-                  />
-                </div>
-                <div class="mb-3 form-check">
-                  <input
-                    type="checkbox"
-                    class="form-check-input"
-                  />
-                  <label class="form-check-label" for=""
-                    >Masculino</label
-                  >
-                </div>
-                <div class="mb-3 form-check">
-                  <input
-                    type="checkbox"
-                    class="form-check-input"
-                  />
-                  <label class="form-check-label" for=""
-                    >Feminino</label
-                  >
-                </div>
-                <button type="submit" class="btn btn-primary">Salvar</button>
-              </form>
+                  <div class="mb-3">
+                    <label for="" class="form-label">Telefone</label>
+                    <input type="text" class="form-control" />
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" />
+                    <label class="form-check-label" for="">Masculino</label>
+                  </div>
+                  <div class="mb-3 form-check">
+                    <input type="checkbox" class="form-check-input" />
+                    <label class="form-check-label" for="">Feminino</label>
+                  </div>
+                  <button type="submit" class="btn btn-primary">Salvar</button>
+                </form>
+              </div>
             </div>
           </div>
-          </div>
-          
         </div>
       </section>
-
+      <div
+        class="modal"
+        id="modal-produto"
+        tabindex="-1"
+        aria-labelledby="exampleModalLabel"
+        aria-hidden="true"
+      >
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+              <button
+                type="button"
+                class="btn-close"
+                data-bs-dismiss="modal"
+                aria-label="Close"
+              ></button>
+            </div>
+            <div class="modal-body">...</div>
+            <div class="modal-footer">
+              <button
+                type="button"
+                class="btn btn-secondary"
+                data-bs-dismiss="modal"
+              >
+                Close
+              </button>
+              <button type="button" class="btn btn-primary">
+                Save changes
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
       <hr />
       <footer id="footer">
         <div class="footer">
@@ -190,7 +209,10 @@
               <div class="col-12 col-sm-4">
                 <h3>Sobre nós</h3>
                 <p class="mb-0 text-muted text-medium">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam iure provident qui ducimus assumenda minus cum, voluptatem ut sint molestias quis odit maxime consectetur est veritatis molestiae facilis iusto quasi?
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Veniam iure provident qui ducimus assumenda minus cum,
+                  voluptatem ut sint molestias quis odit maxime consectetur est
+                  veritatis molestiae facilis iusto quasi?
                 </p>
               </div>
               <div class="col-4"></div>
@@ -198,23 +220,59 @@
                 <h3>Rede sociais</h3>
                 <ul class="nav justify-content-end">
                   <li class="nav-item">
-                    <a class="nav-link" href="https://pt-br.facebook.com/"><img src="./img/facebook-brands.svg" alt="facebook" width="30" height="24"></a>
+                    <a class="nav-link" href="https://pt-br.facebook.com/"
+                      ><img
+                        src="./img/facebook-brands.svg"
+                        alt="facebook"
+                        width="30"
+                        height="24"
+                    /></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="https://twitter.com/i/flow/login"><img src="./img/twitter-brands.svg" alt="facebook" width="30" height="24"></a>
+                    <a class="nav-link" href="https://twitter.com/i/flow/login"
+                      ><img
+                        src="./img/twitter-brands.svg"
+                        alt="facebook"
+                        width="30"
+                        height="24"
+                    /></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="https://br.pinterest.com"><img src="./img/pinterest-brands.svg" alt="facebook" width="30" height="24"></a>
+                    <a class="nav-link" href="https://br.pinterest.com"
+                      ><img
+                        src="./img/pinterest-brands.svg"
+                        alt="facebook"
+                        width="30"
+                        height="24"
+                    /></a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="https://www.instagram.com/"><img src="./img/instagram-brands.svg" alt="facebook" width="30" height="24"></a>
+                    <a class="nav-link" href="https://www.instagram.com/"
+                      ><img
+                        src="./img/instagram-brands.svg"
+                        alt="facebook"
+                        width="30"
+                        height="24"
+                    /></a>
                   </li>
                 </ul>
-                <label for="exampleDataList" class="form-label">Receba nossa newsletter</label>
+                <label for="exampleDataList" class="form-label"
+                  >Receba nossa newsletter</label
+                >
                 <div class="input-group mb-3">
-                  
-                  <input class="form-control" list="datalistOptions" id="exampleDataList" placeholder="Digite seu e-mail">
-                  <button class="btn btn-outline-secondary" type="button" id="button-addon2">Enviar</button>
+                  <input
+                    class="form-control"
+                    list="datalistOptions"
+                    id="exampleDataList"
+                    placeholder="Digite seu e-mail"
+                  />
+                  <button
+                    class="btn btn-outline-secondary"
+                    type="button"
+                    id="button-addon2"
+                  >
+                    Enviar
+                  </button>
                 </div>
               </div>
             </div>
@@ -222,6 +280,7 @@
         </div>
       </footer>
     </div>
+    <!-- Modal -->
 
     <script src="/bootstrap/js/bootstrap.bundle.min.js"></script>
   </body>
