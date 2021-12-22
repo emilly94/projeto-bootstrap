@@ -88,8 +88,8 @@
                 <a
                   class="btn btn-primary"
                   data-bs-toggle="modal"
-                  data-bs-target="#modal-produto"
-                  >Detalhe produto</a
+                  href="#modal-produto"
+                  >Ver detalhes</a
                 >
               </div>
             </div>
@@ -103,7 +103,7 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-primary">Detalhe produto</a>
+                <a href="#" class="btn btn-primary">Ver detalhes</a>
               </div>
             </div>
           </div>
@@ -116,7 +116,7 @@
                   Some quick example text to build on the card title and make up
                   the bulk of the card's content.
                 </p>
-                <a href="#" class="btn btn-primary">Detalhe produto</a>
+                <a href="#" class="btn btn-primary">Ver detalhes</a>
               </div>
             </div>
           </div>
@@ -168,7 +168,7 @@
         </div>
       </section>
       <div
-        class="modal"
+        class="modal fade"
         id="modal-produto"
         tabindex="-1"
         aria-labelledby="exampleModalLabel"
@@ -185,7 +185,30 @@
                 aria-label="Close"
               ></button>
             </div>
-            <div class="modal-body">...</div>
+            <div class="modal-body">
+              <div class="card mb-3" style="max-width: 540px;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./img/presentes.webp" class="img-fluid rounded-start" alt="...">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <h5 class="card-title">Produto</h5>
+                      <p class="card-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Tempora sit iste sed, incidunt esse voluptatum enim corrupti voluptatibus inventore maxime iure natus debitis, nisi optio voluptatem, sequi deleniti molestias in.</p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="card w-100">
+                <div class="card-body">
+                  <h5 class="card-title">Detalhes</h5>
+                  <p class="card-text">-Caracteristicas</p>
+                  <p class="card-text">-Especificações</p>
+                  
+                </div>
+              </div>
+            </div>
             <div class="modal-footer">
               <button
                 type="button"
@@ -195,7 +218,7 @@
                 Close
               </button>
               <button type="button" class="btn btn-primary">
-                Save changes
+                Comprar
               </button>
             </div>
           </div>
