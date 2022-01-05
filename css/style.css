@@ -6,7 +6,13 @@ footer{
   text-align: justify;
 }
 .row{
-  margin-top: 30px;
+  margin-top: 0px;/*30px*/
+}
+header, #contato{
+  margin-top: 110px;
+}
+#produtos{
+  margin-top: 90px;
 }
 #img-header{
   height: 265px;
@@ -14,5 +20,26 @@ footer{
 }
 #redeSocial{
   margin-right: 80px!important;
+}
+#text-header{
+  margin-left: 70%;
+  margin-top: 14%;
+  text-align: center;
+}
+#menu{
+  padding-left: 70%;
+}
+.msgAlerta{
+  height: 30px;
+  margin-top: 5px;
+}
+
+.msgAlerta > p{
+  margin-top: -9px;
+  font-size: 12px;
+}
+
+.msgAlerta > button{
+  margin-top: -9px;
 }
 /**/
