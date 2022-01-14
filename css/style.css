@@ -9,17 +9,20 @@ footer{
   margin-top: 0px;/*30px*/
 }
 header, #contato{
-  margin-top: 110px;
+  margin-top: 60px;
 }
 #produtos{
   margin-top: 90px;
 }
-#img-header{
-  height: 265px;
-  margin-top: -29px;
+.img-header{
+  width: 100%; 
+  height: 500px;
 }
 #redeSocial{
   margin-right: 80px!important;
+}
+.alinhar{
+  margin-left: 15px;
 }
 #text-header{
   margin-left: 70%;
@@ -42,4 +45,390 @@ header, #contato{
 .msgAlerta > button{
   margin-top: -9px;
 }
-/**/
+/*Responsive*/
+@media(max-width: 1040px){
+  #redeSocial {
+    margin-right: 19px!important;
+  }
+}
+@media (max-width: 768px){
+  header, #contato{
+    margin-top: 15px;
+  }
+  .img-header{
+    height: 380px;
+  }
+  #text-header{
+    height: 128px;
+    margin-left: 12%;
+    margin-top: 0%;
+    text-align: center;
+    background-color: #0000005e;
+  }
+  #produtos {
+    margin-top: 30px;
+  }
+  #contato .col-6 > p{
+    width: 283px;
+  }
+  #sobre-nos{
+    margin-left: -53px;
+  }
+  #sobre-nos > p{
+    width: 257px;
+  }
+  #div-footer2{
+    margin-left: 50px;
+  }
+  #label-newsletter{
+    width: 181px;
+  }
+  .input-group{
+    display: grid;
+  }
+  #input-newsletter{
+    width: 181px;
+  }
+  #redeSocial {
+    margin-right: 83px!important;
+    margin-top: -42px;
+  }
+  #redeSocial > #li-twitter {
+    margin-right: -30px;
+    margin-top: -42px;
+  }
+  #redeSocial > #li-pinterest{
+    margin-right: -33px;
+    margin-top: -40px;
+  }
+  #li-facebook{
+    margin-top: 30px;
+  }
+  #li-instagram{
+    margin-right: -90px;
+    margin-top: -39px;
+  }
+ .container .col-4 > h3{
+    width: 181px;
+  }
+  .alinhar{
+    margin-left: 0px;
+  }
+}
+@media (max-width: 656px) {
+  header, #contato{
+    margin-top: 15px;
+  }
+  .img-header{
+    height: 380px;
+  }
+  #text-header{
+    height: 128px;
+    margin-left: 12%;
+    margin-top: 0%;
+    text-align: center;
+    background-color: #0000005e;
+  }
+  #produtos {
+    margin-top: 30px;
+  }
+  #contato .col-6 > p{
+    width: 283px;
+  }
+  #sobre-nos{
+    margin-left: -53px;
+  }
+  #sobre-nos > p{
+    width: 257px;
+  }
+  #div-footer2{
+    margin-left: 50px;
+  }
+  #label-newsletter{
+    width: 181px;
+  }
+  .input-group{
+    display: grid;
+  }
+  #input-newsletter{
+    width: 181px;
+  }
+  #redeSocial {
+    margin-right: 93px!important;
+    margin-top: -42px;
+  }
+  #redeSocial > #li-twitter {
+    margin-right: -30px;
+    margin-top: -42px;
+  }
+  #redeSocial > #li-pinterest{
+    margin-right: -33px;
+    margin-top: -40px;
+  }
+  #li-facebook{
+    margin-top: 30px;
+  }
+  #li-instagram{
+    margin-right: -90px;
+    margin-top: -39px;
+  }
+ .container .col-4 > h3{
+    width: 181px;
+  }
+  .alinhar{
+    margin-left: 0px;
+  }
+}
+@media(max-width: 572px){
+  header, #contato{
+    margin-top: 15px;
+  }
+  .img-header{
+    height: 380px;
+  }
+  #text-header{
+    height: 128px;
+    margin-left: 12%;
+    margin-top: 0%;
+    text-align: center;
+    background-color: #0000005e;
+  }
+  #produtos {
+    margin-top: 30px;
+  }
+  #contato .col-6 > p{
+    width: 283px;
+  }
+  #sobre-nos {
+    margin-left: 0px;
+  }
+  #sobre-nos > p {
+    width: 490px;
+  }
+  #div-footer2{
+    display: none;
+  }
+  #label-newsletter{
+    width: 181px;
+  }
+  .input-group{
+    display: grid;
+  }
+  #input-newsletter{
+    width: 181px;
+  }
+  #redeSocial {
+    margin-right: 93px!important;
+    margin-top: -42px;
+  }
+  #redeSocial > #li-twitter {
+    margin-right: -30px;
+    margin-top: -42px;
+  }
+  #redeSocial > #li-pinterest{
+    margin-right: -33px;
+    margin-top: -40px;
+  }
+  #li-facebook{
+    margin-top: 30px;
+  }
+  #li-instagram{
+    margin-right: -90px;
+    margin-top: -39px;
+  }
+ .container .col-4 > h3{
+    margin-top: 20px;
+    width: 181px;
+  }
+  .alinhar{
+    margin-left: 0px;
+  }
+}
+@media(max-width: 425px){
+  header, #contato{
+    margin-top: 15px;
+  }
+  .img-header{
+    height: 380px;
+  }
+  #text-header{
+    height: 128px;
+    margin-left: 12%;
+    margin-top: 0%;
+    text-align: center;
+    background-color: #0000005e;
+  }
+  #produtos {
+    margin-top: 30px;
+  }
+  #contato .col-6 > p{
+    width: 283px;
+  }
+  #sobre-nos {
+    margin-left: 0px;
+  }
+  #sobre-nos > p {
+    width: 342px;
+  }
+  #div-footer2{
+    display: none;
+  }
+  #label-newsletter{
+    width: 181px;
+  }
+  .input-group{
+    display: grid;
+  }
+  #input-newsletter{
+    width: 181px;
+  }
+  #redeSocial {
+    margin-right: 45px!important;
+    margin-top: -42px;
+  }
+  #redeSocial > #li-twitter {
+    margin-right: -30px;
+    margin-top: -42px;
+  }
+  #redeSocial > #li-pinterest{
+    margin-right: -33px;
+    margin-top: -40px;
+  }
+  #li-facebook{
+    margin-top: 30px;
+  }
+  #li-instagram{
+    margin-right: -90px;
+    margin-top: -39px;
+  }
+ .container .col-4 > h3{
+    margin-top: 20px;
+    width: 181px;
+  }
+  .alinhar{
+    margin-left: 0px;
+  }
+}
+@media (max-width: 375px){
+  header, #contato{
+    margin-top: 15px;
+  }
+  .img-header{
+    height: 380px;
+  }
+  #text-header{
+    height: 128px;
+    margin-left: 12%;
+    margin-top: 0%;
+    text-align: center;
+    background-color: #0000005e;
+  }
+  #produtos {
+    margin-top: 30px;
+  }
+  #contato .col-6 > p{
+    width: 283px;
+  }
+  #sobre-nos {
+    margin-left: 0px;
+  }
+  #div-footer2{
+    display: none;
+  }
+  #label-newsletter{
+    width: 181px;
+  }
+  .input-group{
+    display: grid;
+  }
+  #input-newsletter{
+    width: 181px;
+  }
+  #redeSocial {
+    margin-right: 28px!important;
+    margin-top: -42px;
+  }
+  #redeSocial > #li-twitter {
+    margin-right: -30px;
+    margin-top: -42px;
+  }
+  #redeSocial > #li-pinterest{
+    margin-right: -33px;
+    margin-top: -40px;
+  }
+  #li-facebook{
+    margin-top: 30px;
+  }
+  #li-instagram{
+    margin-right: -90px;
+    margin-top: -39px;
+  }
+ .container .col-4 > h3{
+    margin-top: 20px;
+    width: 181px;
+  }
+  .alinhar{
+    margin-left: 0px;
+  }
+}
+@media (max-width: 320px) {
+  header, #contato{
+    margin-top: 15px;
+  }
+  .img-header{
+    height: 380px;
+  }
+  #text-header{
+    height: 128px;
+    margin-left: 12%;
+    margin-top: 0%;
+    text-align: center;
+    background-color: #0000005e;
+  }
+  #produtos {
+    margin-top: 30px;
+  }
+  #contato .col-6 > p{
+    width: 283px;
+  }
+  #sobre-nos {
+    margin-left: 0px;
+  }
+  #div-footer2{
+    display: none;
+  }
+  #label-newsletter{
+    width: 181px;
+  }
+  .input-group{
+    display: grid;
+  }
+  #input-newsletter{
+    width: 181px;
+  }
+  #redeSocial {
+    margin-right: 7px!important;
+  }
+  #redeSocial > #li-twitter {
+    margin-right: -30px;
+    margin-top: -42px;
+  }
+  #redeSocial > #li-pinterest{
+    margin-right: -33px;
+    margin-top: -40px;
+  }
+  #li-facebook{
+    margin-top: 30px;
+  }
+  #li-instagram{
+    margin-right: -90px;
+    margin-top: -39px;
+  }
+ .container .col-4 > h3{
+    margin-top: 20px;
+    width: 181px;
+  }
+  .alinhar{
+    margin-left: 0px;
+  }
+}
