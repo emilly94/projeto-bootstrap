@@ -332,6 +332,9 @@ header, #contato{
   #sobre-nos {
     margin-left: 0px;
   }
+  #sobre-nos > p {
+    width: 305px;
+  }
   #div-footer2{
     display: none;
   }
@@ -393,6 +396,9 @@ header, #contato{
   }
   #sobre-nos {
     margin-left: 0px;
+  }
+  #sobre-nos > p {
+    width: 255px;
   }
   #div-footer2{
     display: none;
